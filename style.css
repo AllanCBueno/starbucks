@@ -1,0 +1,176 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ body {
+     padding-top: 20px; 
+     padding-right: 100px;
+     padding-left: 100px;
+ }
+ 
+ .conteudo {
+     width: 100%; 
+     height: 80vh;
+     display: flex;
+     justify-content: space-between; 
+     align-items: center; 
+ }
+ 
+ .caixa-texto {
+     width: 600px;
+ }
+ 
+ .caixa-imagem {
+     width: 600px;
+     display: flex;
+     justify-content: flex-end; 
+     margin-top: 400px;
+ }
+ 
+ .menu {
+     display: flex;
+     justify-content: center; 
+ }
+ 
+ button {
+    cursor: pointer;
+     background-color: #017143; 
+     color: #ffffff; 
+     border: none; 
+     padding: 10px;
+     border-radius: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px
+
+ }
+ 
+ button:hover {
+    background-color: #00ad65;
+ }
+ 
+ h2 {
+     font-size: 60px;
+     font-weight: 500;
+ }
+ 
+ span {
+     color: #017143;
+     font-size: 70px; 
+     font-weight: 900;  
+ }
+ 
+ p {
+     font-size: 16px;
+     margin-top: 20px;
+     margin-bottom: 30px;
+ }
+ 
+ header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+
+ header ul {
+     position: relative;
+     display: flex;
+
+ }
+ header ul li {
+    list-style: none;
+
+ }
+
+ header ul li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 300;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 20px;
+    background: #017143;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+header ul li a:hover {
+    background: #00ad65;
+}
+ .logo {
+     position: relative;
+    max-width: 90px;
+
+ }
+ 
+ .copao {
+     width: 340px;
+     z-index: 2; 
+     position: relative;
+     margin-top: 50px;
+ }
+ 
+ .copinho {
+     width: 60px;
+     cursor: pointer;
+     transition: 0.5s;
+     margin-left: 20px;
+     margin-top: 60px;
+  
+    }
+ .copinho:hover {
+    transform: translateY(-25px);
+ }
+ 
+ .circulo {
+     background: #017143;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     clip-path: circle(600px at right 800px);
+ }
+
+ .redes {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .redes .facebook:hover {
+    filter: invert(1);
+ }
+ .redes .instagram:hover {
+    filter: invert(1);
+ }
+ .redes .twitter:hover {
+    filter: invert(1);
+ }
+
+ .redes li {
+    list-style: none;
+ }
+
+ .redes li a {
+    display: inline-block;
+    filter: invert(1);
+    margin: 10px 0;
+    transform: scale(0.8);
+ }
